@@ -79,7 +79,7 @@ jobs:
           jira-url: ${{ secrets.JIRA_URL }}
           jira-username: ${{ secrets.JIRA_USERNAME }}
           jira-token: ${{ secrets.JIRA_TOKEN }}
-          jql: project = "UDEMO" AND status != "Done" ORDER BY created DESC
+          jql: project = "CBPOC" AND status != "Done" ORDER BY created DESC
           fields: summary,status,assignee,created
           max-results: "20"
       - uses: https://github.com/cloudbees-io/checkout@v1
