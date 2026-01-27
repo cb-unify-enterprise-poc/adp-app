@@ -302,7 +302,7 @@ jobs:
           application-name: adp-app
           environment-name: adp-qa
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue: true
@@ -577,7 +577,7 @@ jobs:
           application-name: adp-app
           environment-name: adp-staging
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue: true
@@ -1039,7 +1039,7 @@ jobs:
           application-name: adp-app
           environment-name: adp-prod
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue:
